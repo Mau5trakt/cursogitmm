@@ -1,4 +1,24 @@
-.logo{
-    height:300px;
-    width: 300px;
+figure {
+    position: relative;
+  }
+   
+  figure:before,
+  figure:after {
+    content: '';
+    height: 50%;
+    width: 50%;
+    top: 0;
+    left: 0;
+    position: absolute;
+  }
+   
+  img {
+    width: 50%;
+    height: 50%;
+    margin: 0;
+    padding: 0;
+  }
+
+h1{
+    font: JetBrains Mono
 }
