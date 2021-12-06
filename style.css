@@ -1,3 +1,10 @@
+body{
+    background-color: #1d2127;
+    color: #fff;
+    font-family: "Overpass mono";
+    padding: 0;
+    margin: 0;
+}
 figure {
     position: relative;
   }
@@ -5,20 +12,24 @@ figure {
   figure:before,
   figure:after {
     content: '';
-    height: 50%;
-    width: 50%;
     top: 0;
     left: 0;
     position: absolute;
   }
    
   img {
-    width: 50%;
-    height: 50%;
+    width: 120px;
+    height: 50px;
     margin: 0;
     padding: 0;
   }
 
 h1{
-    font: JetBrains Mono
+    margin: 0 0 0 8px;
+    padding-top: 25px;
+}
+.bar{
+    background-color: #464b55;
+    padding: 10px;
+    display: flex;
 }
