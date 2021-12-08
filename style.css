@@ -1,0 +1,35 @@
+body{
+    background-color: #1d2127;
+    color: #fff;
+    font-family: "Overpass mono";
+    padding: 0;
+    margin: 0;
+}
+figure {
+    position: relative;
+  }
+   
+  figure:before,
+  figure:after {
+    content: '';
+    top: 0;
+    left: 0;
+    position: absolute;
+  }
+   
+  img {
+    width: 120px;
+    height: 50px;
+    margin: 0;
+    padding: 0;
+  }
+
+h1{
+    margin: 0 0 0 8px;
+    padding-top: 25px;
+}
+.bar{
+    background-color: #464b55;
+    padding: 10px;
+    display: flex;
+}
